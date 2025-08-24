@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: bot-agente32
+    env: python
+    buildCommand: ""
+    startCommand: python robô/bot.py
+    repo: https://github.com/devbrasil09/bot
+    branch: main
+    pythonVersion: 3.11.6
