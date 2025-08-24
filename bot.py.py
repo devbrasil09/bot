@@ -5,8 +5,8 @@ import os
 
 app = Flask(__name__)
 
-# 🔐 Substitua pelo seu token real
-TOKEN = "SEU_TOKEN_AQUI"
+# 🔐 Token do seu bot
+TOKEN = "7502454187:AAHXBG7M-nvcmZaVZ9nGr9VjNBzfZMpgPqY"
 bot = Bot(token=TOKEN)
 
 # 🔧 Dispatcher para lidar com comandos
@@ -34,4 +34,6 @@ def set_webhook():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+
 
